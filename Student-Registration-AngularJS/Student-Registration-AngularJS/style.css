@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+  min-height: 100vh;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.page-wrapper {
+  padding: 40px 15px;
+}
+
+.error-text {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+.form-check-inline {
+  margin-right: 1.25rem;
+}
+
+.summary {
+  background: #1e1e1e;
+  color: #e6e6e6;
+  font-family: Consolas, "Courier New", monospace;
+}
+
+.summary-row {
+  display: flex;
+  padding: 4px 0;
+}
+
+.summary-row span {
+  width: 140px;
+  flex-shrink: 0;
+  color: #b5b5b5;
+}
+
+.summary-row strong {
+  font-weight: 600;
+  word-break: break-word;
+}
